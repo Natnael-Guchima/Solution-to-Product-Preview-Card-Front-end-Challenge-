@@ -35,3 +35,38 @@ body {
   margin-right: 1rem;
 }
 /* /////////////////// */
+
+/* Price Tag */
+.price-tag {
+  align-items: center;
+  column-gap: 2rem;
+  display: flex;
+  margin: 2.5rem 0 1rem 0;
+  width: 100%;
+}
+
+.new-price {
+  color: var(--color-primary-dark-cyan);
+  font-family: Fraunces, Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.old-price {
+  color: var(--color-neutral-dak-blue);
+  font-size: 1.5rem;
+  opacity: 0.7;
+  text-decoration: line-through;
+  margin: 0rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .old-price {
+    font-size: 2rem;
+  }
+  .new-price {
+    font-size: 5rem;
+  }
+}
+/* //////////////////////////// */
