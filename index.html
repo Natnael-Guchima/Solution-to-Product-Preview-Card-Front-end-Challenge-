@@ -29,14 +29,23 @@
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
-    <img
-      srcset="
-        images/image-product-mobile.jpg   700w,
-        images/image-product-desktop.jpg 1440w
-      "
-      sizes="(max-width: 700px) 100%,
-100%"
-      alt="Perfume"
-    />
+    <div class="hero-content">
+      <p class="perfume-lable">perfume</p>
+      <h1 class="header">Gabrielle Essence Eau De Parfum</h1>
+      <p class="supporting-copy">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum reiciendis
+        ipsam quo blanditiis maxime explicabo in? At, assumenda provident facere
+      </p>
+      <div class="price-tag">
+        <p class="new-price">$149.99</p>
+        <p class="old-price">169.99</p>
+      </div>
+      <button class="add-to-cart">
+        <span class="cart-icon"
+          ><img src="/images/icon-cart.svg" alt=""
+        /></span>
+        Add to Cart
+      </button>
+    </div>
   </body>
 </html>
