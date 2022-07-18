@@ -70,3 +70,24 @@ body {
   }
 }
 /* //////////////////////////// */
+
+/* Supporting Copy */
+.supporting-copy {
+  /* max-width: 40ch; */
+  color: var(--color-neutral-dak-blue);
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0;
+  opacity: 0.8;
+  text-align: left;
+  width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+  .supporting-copy {
+    font-size: 2rem;
+    line-height: 1.7;
+  }
+}
+/* ////////////////////////////////// */
