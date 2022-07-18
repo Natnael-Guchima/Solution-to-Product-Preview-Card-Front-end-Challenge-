@@ -111,3 +111,22 @@ body {
 }
 
 /* ///////////////////////////////////// */
+
+.perfume-lable {
+  text-transform: uppercase;
+  letter-spacing: 1ch;
+  font-size: 1rem;
+  color: var(--color-neutral-dak-blue);
+  opacity: 0.8;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .perfume-lable {
+    font-size: 2rem;
+  }
+}
+/* ///////////////////// */
