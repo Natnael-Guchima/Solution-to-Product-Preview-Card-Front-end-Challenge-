@@ -144,3 +144,12 @@ body {
 .hero-content {
   padding: 2rem;
 }
+.card {
+  background: white;
+  border-radius: 2rem;
+}
+
+.card-background {
+  background: var(--color-primary-cream);
+  padding: 2rem;
+}
