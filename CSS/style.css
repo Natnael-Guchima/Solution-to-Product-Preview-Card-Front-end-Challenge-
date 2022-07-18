@@ -130,3 +130,11 @@ body {
   }
 }
 /* ///////////////////// */
+
+/* Hero Image */
+.hero-img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+  height: 100%;
+  flex: auto;
+}
