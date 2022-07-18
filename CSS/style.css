@@ -91,3 +91,23 @@ body {
   }
 }
 /* ////////////////////////////////// */
+
+/* Header */
+.header {
+  font-family: Fraunces, Arial, Helvetica, sans-serif;
+  color: var(--color-neutral-dak-blue);
+  font-size: 3rem;
+  text-align: left;
+  display: inline-block;
+  line-height: 100%;
+  width: 100%;
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    font-size: 5rem;
+  }
+}
+
+/* ///////////////////////////////////// */
