@@ -169,5 +169,6 @@ body {
   }
   .card-background {
     padding: 32rem;
+    opacity: 0;
   }
 }
