@@ -18,7 +18,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 Natnael Guchima
 
 
-- Solution URL: [Solution URL]([https://your-solution-url.com](https://natnael-guchima.github.io/Solution-to-Product-Preview-Card-Front-end-Challenge-/))
+- Solution URL: [Add live site URL here](https://your-live-site-url.com))
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
